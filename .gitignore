@@ -6,7 +6,7 @@ __pycache__/
 env/
 venv/
 ENV/
-
+.env
 # Poetry
 .build/
 dist/
@@ -15,7 +15,7 @@ dist/
 .idea/
 .vscode/
 *.swp
-user_settings.json
+data/user_settings.json
 
 # Данные (Excel и базы)
 data/*.xlsx
@@ -25,3 +25,8 @@ data/*.xls
 # Логи и временные файлы
 *.log
 .DS_Store
+.coverage
+.pytest_cache/
+htmlcov/
+.cov
+report.txt
