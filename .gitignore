@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+ENV/
+.env
+# Poetry
+.build/
+dist/
+
+# PyCharm / IDE
+.idea/
+.vscode/
+*.swp
+data/user_settings.json
+
+# Данные (Excel и базы)
+data/*.xlsx
+data/*.xls
+*.sqlite3
+
+# Логи и временные файлы
+*.log
+.DS_Store
+.coverage
+.pytest_cache/
+htmlcov/
+.cov
+report.txt
